@@ -35,7 +35,7 @@ public class SampleTest2 {
 		driver.quit();
 	}
 	
-	@Test(description = "getting title and current url test")
+	@Test(description = "site page title and currenturl test")
 	public void getTitle() {
 		System.out.println("Title:" +driver.getTitle());
 		System.err.println("URL:" +driver.getCurrentUrl());
